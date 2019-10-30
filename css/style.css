@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+
+} 
+
+body {
+
+}
+
+h1.title {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.expand {
+    width: 100% !important;
+    position: sticky !important;
+}
+
+.text-container {
+    padding: 50px;
+}
+
+.bg-hero {
+    background-image: url("../assets/icons/tarjeta.jpg");
+    /* background-position-y: 60px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.space {
+    padding: 50px;
+}
+
+.card-deck {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 35%;
+}
+
+.navbar-brand > img {
+    max-width: 35%;
+    margin-left: 30px;
+}
+
+.last-column-img {
+    max-width: 25%;
+
+}
+
+.logo {
+    max-width: 30px;
+}
+
+.card-deck {
+    grid-column: 2/3;
+    
+}
+
+.card {
+    /* border: none !important; */
+
+    transition: all 0.25s ease-in-out 0.25s;
+}
+
+.card:hover {
+    background-color: rgb(252, 196, 44);
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
+
+.clickable {
+    text-decoration: none;
+    color: black;
+    transition: all 0.20s ease-in-out 0.20s;
+}
+.clickable:hover {
+    text-decoration: none;
+    color: white;
+}
